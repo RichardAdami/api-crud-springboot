@@ -1,20 +1,27 @@
-# api-crud-springboot
+# API CRUD com Spring Boot e Docker
 
-Este projeto é uma API RESTful desenvolvida com Spring Boot e empacotada com Docker. A API realiza operações CRUD (Create, Read, Update, Delete) utilizando os métodos HTTP: `GET`, `POST`, `PUT`, `DELETE`.
+## Descrição do Projeto
+Projeto desenvolvido para a disciplina de Sistemas Distribuídos. Consiste em uma API RESTful criada em Java com Spring Boot que realiza operações CRUD (Create, Read, Update, Delete) usando os verbos HTTP (GET, POST, PUT, DELETE). A API é documentada com Swagger e empacotada em um container Docker para facilitar a execução e testes.
+
+## Objetivos
+- Aplicar conhecimentos de sistemas distribuídos.
+- Criar uma API RESTful com operações CRUD usando Java e Spring Boot.
+- Documentar a API com Swagger (OpenAPI).
+- Empacotar e rodar a API em container Docker, acessível via navegador ou Postman.
 
 ## Tecnologias utilizadas
+- Java 17
+- Spring Boot
+- Docker
+- Swagger (OpenAPI)
 
-- Java 17  
-- Spring Boot  
-- Maven  
-- Docker  
-- Swagger (para documentação da API)  
+## Requisitos
+- Java 17 ou superior
+- Maven (opcional, para rodar localmente)
+- Docker (para rodar em container)
 
----
+## Como executar localmente
 
-## Como executar com Docker
-
-1. Faça o clone deste repositório:
-```bash
-git clone https://github.com/RichardAdami/api-crud-springboot.git
-cd api-crud-springboot
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/RichardAdami/api-crud-springboot.git
