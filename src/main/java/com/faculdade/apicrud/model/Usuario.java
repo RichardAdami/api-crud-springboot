@@ -1,6 +1,6 @@
 package com.faculdade.apicrud.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class Usuario {
@@ -47,4 +47,3 @@ public class Usuario {
         this.email = email;
     }
 }
-
