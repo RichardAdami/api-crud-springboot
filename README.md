@@ -10,14 +10,14 @@ Projeto desenvolvido para a disciplina de Sistemas Distribuídos. Consiste em um
 - Empacotar e rodar a API em container Docker, acessível via navegador ou Postman.
 
 ## Tecnologias utilizadas
-- Java 17
+- Java 11
 - Spring Boot
 - Docker
 - Swagger (OpenAPI)
 
 ## Requisitos
-- Java 17 ou superior
-- Maven (opcional, para rodar localmente)
+- Java 11 ou superior
+- Maven (necessário para rodar localmente sem Docker)
 - Docker (para rodar em container)
 
 ## Como executar localmente
